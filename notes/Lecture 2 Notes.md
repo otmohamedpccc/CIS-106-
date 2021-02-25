@@ -20,5 +20,9 @@
 # what is Raspberry Pi?
 * Low cost credit card sized computer that plugs into a monitor or tv and uses a standard keyboard and mouse 
   # Software needed for Pi 
+<<<<<<< HEAD
   Raspsberry pi image 
+=======
+  Rasberry pi image 
+>>>>>>> 068942b22a2d2777999f433a7858a94906b5bd85
   *Fun fact: Raspberry Pi and Ubuntu are Cousins* 
