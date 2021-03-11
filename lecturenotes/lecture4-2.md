@@ -1,4 +1,4 @@
-Lecture 5 
+
 # options and arguments 
 * commands are often followed by options that modify/enhance their behavior 
 # Creating files and directories 
@@ -32,3 +32,7 @@ Lecture 5
     * moving one folder to another 
       * mv ~/downloads/laptops ~pictures/laptops2.0
 # copying files and directories 
+cp command 
+![cpcommand](../images/cpcommand.png)
+![cpcommand2](../images/cpcommand2.png
+)
