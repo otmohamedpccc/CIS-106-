@@ -15,7 +15,7 @@
 # Question 5
 ![Question5](../images/lab4-2Q5.png)
 ![alsoquestion5](../images/lab4-2Q5.2.png)
-![againquestion5](../images/lab4-2Q5.3.png) 
+![againquestion5](../images/lab4-2Q5.3.png)
 
 
 
