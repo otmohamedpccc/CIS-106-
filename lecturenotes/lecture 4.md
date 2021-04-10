@@ -37,6 +37,3 @@ Parent Directory
 * ls is used for listing content of given directory 
   ls --help lists all ls commands 
   master pwd cd an ls commands 
-# Managing Files amd Directories 
-* Getting help
-  * Man (Manual) Pages 
