@@ -41,8 +41,8 @@ press letter i - insert mode
 * you can also use the "f in command mode to see the file that you are currently working on 
 
 # Basics of Nano 
-To start and create a new file type- nano 
-To exit: CTRL+X
-To save: press Y + name of file, then ENTER
-To open existing file: type- nano + file name
-To edit files: no need to switch modes in order to edit like Vim
+* To start and create a new file type- nano 
+* To exit: CTRL+X
+* To save: press Y + name of file, then ENTER
+* To open existing file: type- nano + file name
+* To edit files: no need to switch modes in order to edit like Vim
