@@ -8,13 +8,13 @@ formatted text - written in special style/characters
 very limited text editor 
 
 **VIM**
-Vi command line text ieditor is included in all POSIX compliant OS 
+Vim command line text editor is included in all POSIX compliant OS 
 learning vi takes tgiome 
 crucial for system administration 
 not included in Ubuntu 
 tin install - sudo apt install vim 
 
-**how to startn and quit vim**
+**how to start and quit vim**
 to start type: vim     
 to exit - hit esc then type :qa! then press enter 
 to exit - q<Enter> to exit 
