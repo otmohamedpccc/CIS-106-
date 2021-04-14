@@ -117,3 +117,51 @@ Run an external command - :!+command
 
 run a command and paste file
     :r!+command
+# Managing Data
+  archive - file containing many other fiels ofd each which is still identified by it filename
+
+  * backup- copies files and directories to an archive 
+  * system backup - use to restore data in case of a system failure or data loss and corruption 
+**List of important directories**
+ * /etc - contains core configure files, security files, network configuration files, user and group information, etc
+ * /home- each user has a /home directory 
+ * /opt - software and packages added after the default installation 
+ * /root - root users home directory
+ * /var - system specific information that changes while the system is running normally 
+
+**archiving utilities** 
+* Tar (tape archive): creates archives by combining files and directortires into a single file 
+* files created with tar must end in .tar
+* To create an archive
+  + tar + options + archive name + files to add to archive 
+* To extract an archive
+ + tar + options + file to extract 
+ + -c or --create - creates an archive file 
+ + -t or --list - lists an archives contents
+ + -x or --extract - extracts archives contents 
+ + -f or --file  - specifies the archive files name and location (command is always required) 
+ + -v or --verbose - displays details about copying files to and extracting files from archives 
+ + -z or ---gzip, --ungzip - filters an archive through gzip
+ + - J - decompresses
+ + -r inserts a file into the archive 
+example - tar -cf myfiles.tar ~/Downloads/* ~/Pictures/* (used * wildcard to extract all files *.{jpeh,png,pdf} 
+a file thats inside an archive is called a member 
+
+* cpio command 
+* The option to create an archive is -o
+  * ls | cpio -ov > arcive.cpio 
+* To extract an archive to cpio use the -i option with < 
+  * cpio -iv < archive.cpio 
+* Archive specific files 
+  * find / -iname *.sh | cpio -ov > scriptsArchive.cpio
+
+# File Compression 
+Og , UNIX file compression was handled by a utlity called compress 
+compress was pateneted and most people staertr using a different utility 
+Gzip (GNU Zip) 
+gzip, bzip2, xz compress files in place meaning the og file is deleted after compression
+bzip2 offers better compression ratios than gzip 
+xz is better than both 
+gzip is not a replacement for zip 
+* compress a file - xz file.txt
+* compress mult. files - 
