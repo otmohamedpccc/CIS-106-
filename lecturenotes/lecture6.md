@@ -134,16 +134,29 @@ run a command and paste file
 * files created with tar must end in .tar
 * To create an archive
   + tar + options + archive name + files to add to archive 
-* To extract an archive
+  
+* To extract an archive**-
+  
  + tar + options + file to extract 
+  
  + -c or --create - creates an archive file 
+  
  + -t or --list - lists an archives contents
+  
  + -x or --extract - extracts archives contents 
+
  + -f or --file  - specifies the archive files name and location (command is always required) 
+  
  + -v or --verbose - displays details about copying files to and extracting files from archives 
+  
  + -z or ---gzip, --ungzip - filters an archive through gzip
- + - J - decompresses
- + -r inserts a file into the archive 
+  
+ + -J - decompresses
+
+ + -r inserts a file into the archive
+  
+ + -d decompresses archives
+
 example - tar -cf myfiles.tar ~/Downloads/* ~/Pictures/* (used * wildcard to extract all files *.{jpeh,png,pdf} 
 a file thats inside an archive is called a member 
 
