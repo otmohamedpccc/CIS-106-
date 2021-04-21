@@ -177,4 +177,4 @@ bzip2 offers better compression ratios than gzip
 xz is better than both 
 gzip is not a replacement for zip 
 * compress a file - xz file.txt
-* compress mult. files - 
+* compress mult. files - gzip file1.txt file2.txt file3.txt
