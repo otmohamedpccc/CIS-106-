@@ -73,7 +73,7 @@ to move multipl pages at a time write the number in front
 **moving to lines**
 :set nu - sets line numbers 
 use : plus the line number 
-    * for ex :8 will move you to line 8
+    * for ex :* will move you to line 8
     * additionally use 8G
 *  $ will move to the end of the line 
 *  O will move to beginning of the line 

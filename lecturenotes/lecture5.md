@@ -4,7 +4,8 @@
   * CAT + (a single file) =  list content of the single file 
   * cat -n to view line numbers 
   * cat -b to display content of file with line numbers excluding empty lines.
-  * cat -E displays $ at end of every line so you know where the end of the line is 
+  * cat -E displays $ at end of every line so you know where the end of the line is
+  *  
 * CAT command can also serve as a text editor 
 * TAC command 
 * works like cat but displays list from bottom to top 
