@@ -10,6 +10,12 @@
   * 16gb ram 
   * 256gb storage 
 
+* VPN mentor on youtube
+* craft computing on youtube
+* cisco.com
+* kaspersky.com
+  
+
 
 * VPNs where originally used by business to protect their data since businesses work online and employees would work remotely 
   
