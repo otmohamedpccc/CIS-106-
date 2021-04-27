@@ -10,11 +10,29 @@
   * 16gb ram 
   * 256gb storage 
 
+
+* VPNs where originally used by business to protect their data since businesses work online and employees would work remotely 
+  
+* When visiting a site like you tube, you would type in the domain name. The domain name is basically a nickname for the ip address. We give websites domain names and the server translates them. When using any web browser you send your data into the internet until it reaches a server the server translates and sends requested data back to you. when doing this you are sending your ip and other sensitive information over which can be seen and possibly stolen by another user who is connected to the same network.
+  
+* Websites you visit can gather information on you and use them to study their demographic. They call this data harvesting 'cookies'. This can be seen as harmless data collection to some users, and to others as spying. 
+
+* The vpn will create a tunnel to encrypt your information, that way if the data is seen by unwanted eyes, it is useless to them. Unless they get passed the tunnel which is still a possibility.
+  
+* a vpn adds an extra server. this extra security step turns into a convenience where streaming services have strict content depending on geo location. 
+
+* Hotels and flight prices also change depending on location and since vpn 'changes your location' there  are potential money saving benefits
+
+*  all cookies from web surfing reach only the vpn server and do not trace back to you
+
+* many vpns have a No Log Policy meaning if the govt requested your information, they would not have any information to trace back to you
+
+
 * A VPN(Virtual Private Network) is an encrypted connection created over the internet from a device to a network. Encrypted connections ensure private or sensitive data is hidden from prying eyes. a vpn can prevent eavesdropping and can allow a user to work remotely. VPNs are used by the average consumer and is also common in a corporate environment. (cisco)
 
 * a vpn works by routing your devices internet connection through the chosen/created vpn server rather than the standard ISP so when data is transmitted over the internet, it will come from the vpn instead of the computer. This means if you peruse the web on a vpn the data will only come from the vpn. (cisco)
 
-* You should use a vpn because it can ensure privacy when websurfing  and safety when dealing with sensitive information. When connecting to the internet, your ISP is the one to make the connection. When connction is established you are instantly given adn tracked by an IP address (kaspersky) Your isp can seem trustworthy but they may share your browsing history with advertisers, the police/govt and/or by third parties. 
+* You should use a vpn because it can ensure privacy when web surfing  and safety when dealing with sensitive information. When connecting to the internet, your ISP is the one to make the connection. When connection is established you are instantly given and tracked by an IP address (kaspersky) Your isp can seem trustworthy but they may share your browsing history with advertisers, the police/govt and/or by third parties. 
 
 * ISP - Internet Service Provider (ex.optimum,verizon) provides internet as a service which a person has to pay for
 
@@ -22,7 +40,7 @@
 
 * an ip address is a unique address that identifies a device and its location on the internet or local area network. Ip means internet protocal, which is a set of rules that govern the format of data sent via the internet or local network (kaspersky)
 
-* A  good vpn should : hide your ip, prevent leaving traces in the form of internet history and cookies. Encryption of of cookies is impartant because it prevents 3rd party access to important information such as financial information and personal data. it should have a kill switch in the event connection is suddenly interrupted.
+* A  good vpn should : hide your ip, prevent leaving traces in the form of internet history and cookies. Encryption of of cookies is important because it prevents 3rd party access to important information such as financial information and personal data. it should have a kill switch in the event connection is suddenly interrupted.
 
 * a vpns encryption can only be decoded using a key which only the users computer and the vpn know meaning your isp and third parties cannot recognize where what youre doing.
 
