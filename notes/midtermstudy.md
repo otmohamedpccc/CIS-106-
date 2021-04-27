@@ -39,3 +39,11 @@ cut command
 * --output-delimeter=' = '
 * cut -d ' ' -f1 file 
 * a space is a character 
+
+* curl - run a script     curl | bash 
+* wget - download a file 
+
+* mkdir -P school/pccc/{old,new} - creates , parent and sub directories 
+
+* inode - the number id of a file 
+* you can ls absolute paths and relative  
