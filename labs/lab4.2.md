@@ -1,7 +1,7 @@
 # Lab 4-2
 
 ## Question 1
-![Question1](../images/lab4-2Q1.png0)
+![Question1](../images/lab4-2Q1.png)
 
 
 # Question 2
