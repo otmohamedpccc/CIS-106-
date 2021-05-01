@@ -118,7 +118,7 @@ Run an external command - :!+command
 run a command and paste file
     :r!+command
 # Managing Data
-  archive - file containing many other fiels ofd each which is still identified by it filename
+  archive - file containing many other fields of each which is still identified by it filename
 
   * backup- copies files and directories to an archive 
   * system backup - use to restore data in case of a system failure or data loss and corruption 
@@ -178,3 +178,4 @@ xz is better than both
 gzip is not a replacement for zip 
 * compress a file - xz file.txt
 * compress mult. files - gzip file1.txt file2.txt file3.txt
+

@@ -43,7 +43,13 @@ cut command
 * curl - run a script     curl | bash 
 * wget - download a file 
 
-* mkdir -P school/pccc/{old,new} - creates , parent and sub directories 
+* mkdir -p school/pccc/{old,new} - creates , parent and sub directories 
+* mkdir -p midtermS21/question{1..10}  brace expansion
 
-* inode - the number id of a file 
+* inode - the number id of a file - stat or ls -l
+
 * you can ls absolute paths and relative  
+
+* tar -cf (file.tar) creates an archive 
+  
+* 
