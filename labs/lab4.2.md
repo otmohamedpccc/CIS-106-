@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Lab 4-2
 
 ## Question 1
@@ -19,3 +21,4 @@
 
 
 
+>>>>>>> 7575d03c9fa84dbaf3e28acaad08fd577b819fc6

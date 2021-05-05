@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Handling Text Files 
 * CAT command used for displaying contents of file
   * concatenate - to join two strings together, two files together, two texts together
@@ -87,3 +89,4 @@ $ is the same but finds the specfied word at the end
 Alias - a shorthand for a more complicated command
 * alias name_of_alias= "command here"
 * to get rid of Alias created, unalias
+>>>>>>> 7575d03c9fa84dbaf3e28acaad08fd577b819fc6

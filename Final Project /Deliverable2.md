@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 ## Resources used 
 * Raspberry pi 400
     * roadcom BCM2711 quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
@@ -76,3 +78,4 @@ intranet- local or restricted communications network, especially private created
 * VPN clients - software must be installed 
 * Browser extensions - Extensions make it easier for users to quickly switch and configure their VPN while surfing the internet. However, the VPN connection is only valid for information that is shared in this browser. Using other browsers and other internet uses outside the browser cannot be encrypted by the VPN.
 * Router VPN - if multiple devices are connected it may be easier to implement a vpn on your router than installing a separate vpn for each device
+>>>>>>> 2e2f02a0bd893937513916d36b4d99507705cbb2

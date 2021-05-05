@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 **lecture 5 Notes for hw is here**
 .odt - libreoffice - problematic on windows , little bit on apple pages bc not good 
 
@@ -179,3 +181,4 @@ gzip is not a replacement for zip
 * compress a file - xz file.txt
 * compress mult. files - gzip file1.txt file2.txt file3.txt
 
+>>>>>>> 7575d03c9fa84dbaf3e28acaad08fd577b819fc6
