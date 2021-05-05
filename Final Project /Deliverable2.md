@@ -4,6 +4,7 @@
     * 4GB LPDDR4-3200
     * Dual-band (2.4GHz and 5.0GHz) IEEE 802.11b/g/n/ac wireless LAN
     * MicroSD card slot for operating system and data storage
+* 
 
 * lenovo laptop 
   * Ryzen 5 
@@ -14,7 +15,18 @@
 * craft computing on youtube
 * cisco.com
 * kaspersky.com
-  
+
+* Virtual Box VM using Ubuntu 
+* 
+* OS: Ubuntu 20.04 64Bits ISO URL
+* HDD: 50 GB
+* RAM: 2GB
+*  Video: 64 MB or Higher
+* Audio Controller: Disabled (audio won't be needed)
+* CPU: 2 Cores
+* Shared Clipboard: Enabled - Bidirectional
+* Drag n' Drop: Enabled - Bidirectional
+
 
 
 * VPNs where originally used by business to protect their data since businesses work online and employees would work remotely 
