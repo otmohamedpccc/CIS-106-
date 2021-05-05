@@ -6,7 +6,7 @@
     * 4GB LPDDR4-3200
     * Dual-band (2.4GHz and 5.0GHz) IEEE 802.11b/g/n/ac wireless LAN
     * MicroSD card slot for operating system and data storage
-* 
+
 
 * lenovo laptop 
   * Ryzen 5 
