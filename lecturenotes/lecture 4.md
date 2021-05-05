@@ -20,7 +20,7 @@ Parent Directory
   include directory pic 
 
 # Commands to move around the file system 
-* The pwd command- used for displaying thre current working directory 
+* The pwd command- used for displaying the current working directory 
 * The cd command- used for changing directory 
   cd../ = backwards, parent directory 
   cd . = current directory 
