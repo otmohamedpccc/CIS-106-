@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 ## Hardware used 
 * Raspberry pi 400
