@@ -1,4 +1,4 @@
-# What was used
+# Creating a Private Minecraft Server on Raspberry Pi
 
 ## Hardware
 * Raspberry pi 400
@@ -20,4 +20,8 @@
 ## Software 
 * Minecraft (Java Edition)
 * BuildTools
-* Raspbian 
+* Raspberry Pi OS (FKA:Raspbian)
+
+## Commands Used 
+
+## 
