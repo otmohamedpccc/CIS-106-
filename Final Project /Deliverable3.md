@@ -1,6 +1,8 @@
 # Creating a Private Minecraft Server on Raspberry Pi
 
-## Hardware
+## Project Description
+
+## Requirements and Hardware
 * Raspberry pi 400
   * roadcom BCM2711 quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
   * 4GB LPDDR4-3200
@@ -19,7 +21,7 @@
 
 ## Software 
 * Minecraft (Java Edition)
-* BuildTools
+* BuildTools.jar
 * Raspberry Pi OS (FKA:Raspbian)
 
 ## Commands Used 
