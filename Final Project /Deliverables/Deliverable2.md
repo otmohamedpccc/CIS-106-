@@ -1,6 +1,6 @@
 
 =======
-## Hardware used 
+## Hardware used to build a minecraft server
 * Raspberry pi 400
     * roadcom BCM2711 quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
     * 4GB LPDDR4-3200
@@ -18,7 +18,7 @@
   * 256gb storage 
 
 
-## What is Spigot and others Information
+## What is Spigot and related sofwares?
 * Spigotmc.org
 * Youtube : MakeTechEasier: How to Turn YOur Raspberry Pi into a Minecraft Server
 * Minecraft.net
@@ -37,3 +37,5 @@
 
 ## What is Minecraft
 * What is Minecraft - Minecraft is a single/multiplayer sandbox that challenges players to survive, build, and, defeat mobs(enemies) using the natural resources around the minecraft world. Each time a new world is created, a new seed is generated, meaning every Minecraft world is totally unique.
+
+* There are multiple versions of Minecraft, like java edition for computers, mobile editon for phones and mobile devices, and bedrock edition which is seen on consoles. For this build we are using the java edition as it enables us to create the private server we want.
