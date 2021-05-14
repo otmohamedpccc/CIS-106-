@@ -16,5 +16,7 @@
     - [Connecting to your Minecraft Server](#connecting-to-your-minecraft-server)
     - [Boot your server Automatically (optional)](#boot-your-server-
 matically-optional)
+    - [Issues Encountered](#issues-encountered)
+    - [Works Cited](#works-cited)
 
 <!-- /TOC -->

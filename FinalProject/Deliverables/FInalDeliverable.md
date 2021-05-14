@@ -1,24 +1,7 @@
 # Creating a Private Minecraft Server on Raspberry Pi
 
-## Table of Contents
-- [Creating a Private Minecraft Server on Raspberry Pi](#creating-a-private-minecraft-server-on-raspberry-pi)
-  - [Table of Contents](#table-of-contents)
-  - [Project Description](#project-description)
-  - [Requirements and Hardware used for this build](#requirements-and-hardware-used-for-this-build)
-  - [Software used](#software-used)
-  - [Hardware used to build a minecraft server](#hardware-used-to-build-a-minecraft-server)
-  - [Important information on software being used](#important-information-on-software-being-used)
-  - [What is Minecraft](#what-is-minecraft)
-- [Commands used to build the Server](#commands-used-to-build-the-server)
-  - [Best practices](#best-practices)
-  - [Updating Memory Split](#updating-memory-split)
-  - [Allow SSH connections (optional)](#allow-ssh-connections-optional)
-  - [Installing Java](#installing-java)
-  - [Create a Spigot Server](#create-a-spigot-server)
-  - [Connecting to your Minecraft Server](#connecting-to-your-minecraft-server)
-  - [Boot your server Automatically (optional)](#boot-your-server-automatically-optional)
-matically-optional)
 
+<!-- TOC -->autoauto- [Creating a Private Minecraft Server on Raspberry Pi](#creating-a-private-minecraft-server-on-raspberry-pi)auto    - [Project Description](#project-description)auto    - [Requirements and Hardware used for this build](#requirements-and-hardware-used-for-this-build)auto    - [Software used](#software-used)auto    - [Hardware used to build a minecraft server](#hardware-used-to-build-a-minecraft-server)auto    - [Important information on software being used](#important-information-on-software-being-used)auto    - [What is Minecraft](#what-is-minecraft)auto- [Commands used to build the Server](#commands-used-to-build-the-server)auto    - [Best practices](#best-practices)auto    - [Updating Memory Split](#updating-memory-split)auto    - [Allow SSH connections (optional)](#allow-ssh-connections-optional)auto    - [Installing Java](#installing-java)auto    - [Create a Spigot Server](#create-a-spigot-server)auto    - [Connecting to your Minecraft Server](#connecting-to-your-minecraft-server)auto    - [Boot your server Automatically (optional)](#boot-your-server-automatically-optional)auto    - [Issues Encountered](#issues-encountered)auto    - [Works Cited](#works-cited)autoauto<!-- /TOC -->
 
 ## Project Description
 * For my project I have decided to build a private Minecraft sever using a 3rd party server software which is also supported by minecraft, so dont worry! Everything you do here is completely safe and legal!
@@ -190,9 +173,13 @@ Since the version of Minecraft we are using is the java edition, you want to mak
 
 * Now you can enable auto start by entering this command **sudo systemctl start minecraftserver.service**, your server should now start up every time you start your RPi.
 
+## Issues Encountered 
+* There were no issues encountered when building this server.
 
-
-
+## Works Cited 
+* Spigotmc.org/wiki/index
+* Youtube : MakeTechEasier: How to turn your Raspberry Pi into a Minecraft Server
+* Minecraft.net
 
 
 
