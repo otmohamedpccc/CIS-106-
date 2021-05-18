@@ -31,8 +31,7 @@
 * etc/passwd contains 
 * cut -d : -f1 /etc/passwd displays the first field of each line, using: as the field separator 
 * ex cut -d '-' f1 
-* <!-- TOC -->autoauto- [Handling Text Files](#handling-text-files)auto    - [Grep command](#grep-command)auto    - [I/O redirection](#io-redirection)autoauto<!-- /TOC -->
-* Paste command - join files horizontally in columns
+*
 
 * Sort commmand 
 
