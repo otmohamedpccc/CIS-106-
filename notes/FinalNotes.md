@@ -1,5 +1,43 @@
 # Final Notes 
 
+## Table of Contents
+- [Final Notes](#final-notes)
+  - [Table of Contents](#table-of-contents)
+  - [Notes 1](#notes-1)
+    - [What is Ubuntu?](#what-is-ubuntu)
+    - [What is Ubuntu?](#what-is-ubuntu-1)
+    - [A little bit of Ubuntu's background](#a-little-bit-of-ubuntus-background)
+    - [The Ubuntu Vision](#the-ubuntu-vision)
+    - [Ubuntu Flavors](#ubuntu-flavors)
+    - [UBuntu has 7 official flavors](#ubuntu-has-7-official-flavors)
+    - [Some UBuntu distributions are:](#some-ubuntu-distributions-are)
+  - [Notes 2](#notes-2)
+    - [What is Virtualization?](#what-is-virtualization)
+    - [Using Virtual Box](#using-virtual-box)
+    - [Installing Ubuntu in a Virtual Machine](#installing-ubuntu-in-a-virtual-machine)
+      - [settings for the virtual environment](#settings-for-the-virtual-environment)
+    - [what is Raspberry Pi?](#what-is-raspberry-pi)
+  - [Notes 3](#notes-3)
+    - [Exploring Desktop Environment](#exploring-desktop-environment)
+    - [What is a Shell?](#what-is-a-shell)
+    - [Managing software](#managing-software)
+    - [Debian Package Management System](#debian-package-management-system)
+    - [Linux Filesystem](#linux-filesystem)
+  - [Notes 4](#notes-4)
+    - [Linux Directory System](#linux-directory-system)
+    - [File system](#file-system)
+    - [The Nemo File Manager](#the-nemo-file-manager)
+    - [Commands to move around the file system](#commands-to-move-around-the-file-system)
+    - [types of path names](#types-of-path-names)
+    - [Listing Files And Directories](#listing-files-and-directories)
+- [## Notes 5](#-notes-5)
+- [Handling Text Files](#handling-text-files)
+  - [Grep command](#grep-command)
+  - [I/O redirection](#io-redirection)
+  - [Notes 6](#notes-6)
+- [Managing Data](#managing-data)
+- [File Compression](#file-compression)
+
 ## Notes 1
 ### What is Ubuntu?
 
@@ -121,7 +159,7 @@ distributions because they heavily rely on Ubuntu’s active development cycle
     * Restricted- Proprietary drivers for devices
     * Multiverse- software restricted by copyright or legal issues
 ### Debian Package Management System 
-* DPMS is the foundation for managin softwarte on all debian distributions
+* DPMS is the foundation for managing software on all debian distributions
 * at the core if DPMS is the dpkg
 * debian package names end with the .deb extension are called ".deb files"  
 * dpkg is a low level tool. therefore wrapper tools are preferred since dpkg cannot handle dependencies 
@@ -138,10 +176,10 @@ distributions because they heavily rely on Ubuntu’s active development cycle
 
 ### Linux Directory System
 ### File system
-* way fiels are stored and organized
+* way files are stored and organized
 * linux and mac use **hierarchial directory structure ( tree like pattern of folders) 
 * Directory = Folder 
-* File System Hierarchy Standard (FHS) specifice requirements and guidelines for files and diectroy placement in UNIX like OSs
+* File System Hierarchy Standard (FHS) specific requirements and guidelines for files and directory placement in UNIX like OSs
 * Root Directory is the god file contains files and sub directories 
 * Unlink windows  linux always have a single file system tree regardless of how many drives or storage devices are attached to the computer 
 * In linux everything is a file 
@@ -191,7 +229,7 @@ Parent Directory
 
 * More command
   * a pager program used for displaying the context of text files one page at a time
-  * more -d open a file and display guding info in the bottom 
+  * more -d open a file and display guiding info in the bottom 
   * more -10 open a file 10 lines at a time 
 
 * Less command - faster than more 
@@ -236,16 +274,16 @@ used to match a string pattern from a file or a standard output when using the p
 * grep -o only display the string matched 
 
 ^ in the beginning is a reg expression that tells grep to give lines that start with specified word
-$ is the same but finds the specfied word at the end 
+$ is the same but finds the specified word at the end 
 
 ## I/O redirection 
 * can redirect the input and output of command to and from files as well as connect multiple commands together into powerful command pipelines
-* The commands learned so far generatie 2 types of output
+* The commands learned so far generate 2 types of output
   * The result of the command 
   * Error when the command does not run
-  * since every thing in linuc is a file, thes programs send rher output to a file called STDOUT and error messages to STDERR
-  * These files arelinked to the sceen by defualt which means that they are not saved into a file but instead disaplayed in the terminal 
-  * Input is sent ti STDIN and is attacheh to the keyboard in the same way that STDOUT and STDERR are attached to the display by default 
+  * since every thing in linux is a file, thes programs send the output to a file called STDOUT and error messages to STDERR
+  * These files are linked to the screen by default which means that they are not saved into a file but instead displayed in the terminal 
+  * Input is sent ti STDIN and is attached to the keyboard in the same way that STDOUT and STDERR are attached to the display by default 
   * I/O redirection allows us to change where output goes and where input comes from
   
   Standard File Descriptors
@@ -264,3 +302,184 @@ $ is the same but finds the specfied word at the end
 
 Alias - a shorthand for a more complicated command
 * alias name_of_alias= "command here"
+
+## Notes 6
+.odt - libreoffice - problematic on windows , little bit on apple pages bc not good 
+
+plain text - text that is not computationally tagged, specially formatted, or written in code.
+formatted text - written in special style/characters 
+
+**nano** - default text editor of GNU 
+very limited text editor 
+
+**VIM**
+Vim command line text editor is included in all POSIX compliant OS 
+learning vi takes tgiome 
+crucial for system administration 
+not included in Ubuntu 
+tin install - sudo apt install vim 
+
+**how to start and quit vim**
+to start type: vim     
+to exit - hit esc then type :qa! then press enter 
+to exit - q<Enter> to exit 
+to help - help<Enter> or <F1> for online help
+
+: > prefix for entering command line mode 
+q > short for quit 
+a > short for all buffers
+! > force 
+:qa! > close all 
+
+* Insert mode - used for writing txt 
+* Normal mode used for manipulating text 
+* Command mode used to type vim commands 
+* visual mode similar to visual mode 
+* select mode similar to visual - used for processing a bunch of lines in one shot 
+* EX- mode 
+when you start vim you're automatically in  Normal mode 
+press letter i - insert mode 
+
+**Navigating a File** 
+* H = left
+* J = down 
+* K = up
+* L = right 
+
+**saving and quitting vim** 
+* to save a text file you need to enter normal mode using :w 
+* :w will save the file 
+* :w new.txt will save file as new.txt
+* :wq will save file and quit 
+* :wqa! will save file and close all 
+
+**editing a file with vim**
+* :e new,txt -> will open new.txt and allow you to edit 
+* you can use autocompletion 
+* Ctrl + g will show the file that you are currently editing in the status line 
+* you can also use the "f in command mode to see the file that you are currently working on 
+
+**searching words in vim**
+Use / and the word you are looking for 
+    for ex /hello 
+? to search backward
+    ?hello 
+* '*' will search for the next occurrence of the word under the cursor 
+* '#' will  search for the previous occurrence of the word under the cursor
+
+**screen movement** 
+G - moves to end of file 
+gg moves to begginning 
+CTRL -f forward
+CTTRL - b moves a page backward at a time 
+to move multipl pages at a time write the number in front 
+    * 2 ctrL f 
+
+**moving to lines**
+:set nu - sets line numbers 
+use : plus the line number 
+    * for ex :* will move you to line 8
+    * additionally use 8G
+*  $ will move to the end of the line 
+*  O will move to beginning of the line 
+*  vim sample.txt +100 will open sample.txt and move to line 100
+* '+' executes any vim command from the shell prompt 
+
+**Delete text and copy and paste**
+* dw - delete current word
+* u - undo 
+* dd - delete line under the cursor 
+* d + /word - delete until word given 
+* yw - copy the current word 
+* p - for paste after the cursor 
+* P - for paste before the cursor 
+* yy - copies a whole line 
+* x - cut 
+
+**change text** 
+cw - deletes the word under the cursor and enters insert mode 
+c /hello - deletes until it finds the word hello and enters insert mode 
+* Visual Selection
+  * SHIFT + V select lines 
+  * CTRL + V select blocks 
+* Replace text 
+* :s/old word/new word will replace all the word with the give one 
+* :s/old/new - will replace the first occurrence of the word old
+* :%s/old/new/g - replace all the occurrences of the word old 
+* :s/old/new/g/y - will ask you 
+
+**work in split screen mode** 
+to open a new VIM window next to current one - CTRL + w then v
+* to open a new windo below current - CTRL +w the s
+* to move to the window on the right/left/down/up
+* CTRL + w then h/l/j/k
+
+**useful to know** 
+read files - SHFIT + o - enters a new empty line 
+create a vim custom file 
+    in your home directory create a file named .vimrc and add the commands to that file - http://learnvimscriptthehardway.stevelosh.com/
+Run an external command - :!+command
+
+run a command and paste file
+    :r!+command
+# Managing Data
+  archive - file containing many other fields of each which is still identified by it filename
+
+  * backup- copies files and directories to an archive 
+  * system backup - use to restore data in case of a system failure or data loss and corruption 
+**List of important directories**
+ * /etc - contains core configure files, security files, network configuration files, user and group information, etc
+ * /home- each user has a /home directory 
+ * /opt - software and packages added after the default installation 
+ * /root - root users home directory
+ * /var - system specific information that changes while the system is running normally 
+
+**archiving utilities** 
+* Tar (tape archive): creates archives by combining files and directortires into a single file 
+* files created with tar must end in .tar
+* To create an archive
+  + tar + options + archive name + files to add to archive 
+  
+* To extract an archive**-
+  
+ + tar + options + file to extract 
+  
+ + -c or --create - creates an archive file 
+  
+ + -t or --list - lists an archives contents
+  
+ + -x or --extract - extracts archives contents 
+
+ + -f or --file  - specifies the archive files name and location (command is always required) 
+  
+ + -v or --verbose - displays details about copying files to and extracting files from archives 
+  
+ + -z or ---gzip, --ungzip - filters an archive through gzip
+  
+ + -J - decompresses
+
+ + -r inserts a file into the archive
+  
+ + -d decompresses archives
+
+example - tar -cf myfiles.tar ~/Downloads/* ~/Pictures/* (used * wildcard to extract all files *.{jpeh,png,pdf} 
+a file thats inside an archive is called a member 
+
+* cpio command 
+* The option to create an archive is -o
+  * ls | cpio -ov > arcive.cpio 
+* To extract an archive to cpio use the -i option with < 
+  * cpio -iv < archive.cpio 
+* Archive specific files 
+  * find / -iname *.sh | cpio -ov > scriptsArchive.cpio
+
+# File Compression 
+Og , UNIX file compression was handled by a utlity called compress 
+compress was pateneted and most people staertr using a different utility 
+Gzip (GNU Zip) 
+gzip, bzip2, xz compress files in place meaning the og file is deleted after compression
+bzip2 offers better compression ratios than gzip 
+xz is better than both 
+gzip is not a replacement for zip 
+* compress a file - xz file.txt
+* compress mult. files - gzip file1.txt file2.txt file3.txt
